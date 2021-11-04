@@ -1,0 +1,1 @@
+alert ("Usar alert es mala práctica");
