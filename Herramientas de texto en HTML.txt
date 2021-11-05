@@ -3,7 +3,11 @@ Lenguaje de etiquetas de hiperptexto:
 1.Elementos títulos.
 Codigo: h1, h2, h3, etc
 El número le otorga la importancia del título (h1 es el mas importante, h6 el menos importante)
-Un elemento de encabezado describe brevemente el tema de la sección que presenta. 
+Un elemento de encabezado describe brevemente el tema de la sección que presenta.
+
+2.Elemento de parrafo.
+Codigo: p
+El parrafo es para darle contenido escrito a la pagina.
 
 
 
