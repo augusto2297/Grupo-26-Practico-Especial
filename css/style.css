@@ -1,5 +1,6 @@
 body {
-    background-color: cornflowerblue;
+    background: linear-gradient(rgb(48, 228, 48), white);
+    background-repeat: no-repeat;
 }
 
 h1 {
