@@ -15,68 +15,75 @@
         de navegación
       </p>
     </header>
-    <h1>Estamos aprendiendo los conceptos básicos del desarrolo front end</h1>
-    <h2>Continuamos aprendiendo los conceptos básicos</h2>
-    <div>
-      <form action="" method="get">
-        <fieldset>
-          <div>
-            <label for="name">Name:</label>
-            <input type="text" name="name" id="name" required />
-          </div>
-          <div>
-            <label for="email">Email:</label>
-            <input type="text" name="email" id="email" required />
-          </div>
-          <div>
-            <label for="subscribe">Subscribe:</label>
+    <main>
+      <h1>Estamos aprendiendo los conceptos básicos del desarrolo front end</h1>
+      <h2>Continuamos aprendiendo los conceptos básicos</h2>
+      <div>
+        <form action="" method="get">
+          <fieldset>
             <div>
-              <label for="yesSub">Yes</label>
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name" required />
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="text" name="email" id="email" required />
+            </div>
+            <div>
+              <label for="subscribe">Subscribe:</label>
+              <div>
+                <label for="yesSub">Yes</label>
+                <input
+                  type="radio"
+                  name="subscribe"
+                  value="yes"
+                  id="yesSub"
+                  required
+                />
+                <label for="noSub">No</label>
+                <input
+                  type="radio"
+                  name="subscribe"
+                  value="no"
+                  id="noSub"
+                  required
+                />
+              </div>
+            </div>
+            <div>
+              <label for="phone">Phone:</label>
+              <input type="tel" name="phone" id="phone" required />
+            </div>
+            <div>
+              <textarea
+                name="mensaje"
+                cols="30"
+                rows="5"
+                placeholder="Leave us a message!"
+              ></textarea>
+            </div>
+            <div>
+              <label for="agreement" form-label>I Agree with the terms</label>
               <input
-                type="radio"
-                name="subscribe"
-                value="yes"
-                id="yesSub"
-                required
-              />
-              <label for="noSub">No</label>
-              <input
-                type="radio"
-                name="subscribe"
-                value="no"
-                id="noSub"
+                type="checkbox"
+                name="agreement"
+                id=""
+                value="1"
                 required
               />
             </div>
-          </div>
-          <div>
-            <label for="phone">Phone:</label>
-            <input type="tel" name="phone" id="phone" required />
-          </div>
-          <div>
-            <textarea
-              name="mensaje"
-              cols="30"
-              rows="5"
-              placeholder="Leave us a message!"
-            ></textarea>
-          </div>
-          <div>
-            <label for="agreement" form-label>I Agree with the terms</label>
-            <input type="checkbox" name="agreement" id="" value="1" required />
-          </div>
-          <div>
-            <input type="reset" value="Reset" />
-            <button type="submit">Send</button>
-          </div>
-        </fieldset>
-      </form>
-    </div>
-    <img src="images/R.jpg" alt="panda" />
+            <div>
+              <input type="reset" value="Reset" />
+              <button type="submit">Send</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <img src="images/R.jpg" alt="panda" />
 
-    <input type="button" id="primer-btn" />
-    <p id="mensajeJS"></p>
-
+      <input type="button" id="primer-btn" />
+      <p id="mensajeJS"></p>
+    </main>
     <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
