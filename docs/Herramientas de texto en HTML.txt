@@ -10,6 +10,6 @@ Codigo: p
 El parrafo es para darle contenido escrito a la pagina.
 3. Elemento de vinculos
 Codigo: a
-El vinculo permite redirigir a otra parte del sitio o a otro sitio
+El vinculo permite redirigir a otra parte del sitio o a otro sitio. para vincular el sitio de destino se usa el atributo href.
 
 
