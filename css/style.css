@@ -11,3 +11,6 @@ h2 {
     color: red;
     font-size: small;
 }
+.centerText{
+    text-align: center;
+}
